@@ -4,13 +4,6 @@
 #include <sstream>
 
 using namespace std;
-
-/* ==============================
- 
-           CТРОКИ В С++
- 
-   ============================== */
-
 int main()
 {
     setlocale(LC_ALL,"rus");
