@@ -1,11 +1,22 @@
-# students
-#include <iostream>
-#include <string>
-#include <sstream>
+ students
+ 
+ 
+ 
+ 
+#include< iostream>
+#include< string>
+#include< sstream>
+
+
+
+
+
 
 using namespace std;
 int main()
+
 {
+
     setlocale(LC_ALL,"rus");
     struct student
     {
@@ -13,11 +24,15 @@ int main()
         int group;
         double score[5];
     };
+    
+    
     cout<<"Введите колличество учеников: ";
     int n;
     cin>>n;
     cout<<endl;
     student *st=new student[n];
+    
+    
     for (int i = 0; i!=n; i++) {
         cout<<"Введите фамилию: "<<endl;
         cin>>st[i].fio;
@@ -28,9 +43,11 @@ int main()
         int j = 0;
         do
         {
+        
             cout<<"Оценка: ";
             cin>>st[i].score[j];
-            j++;
+            j++
+            
             
         }while(j!=5);
         double srball;
